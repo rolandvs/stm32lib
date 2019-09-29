@@ -70,7 +70,7 @@ typedef enum
 /**
  * @}
  */
- 
+
  /**
  * @}
  */
@@ -80,7 +80,7 @@ typedef enum
 /** @defgroup HAL_Exported_Constants HAL Exported Constants
   * @{
   */
-  
+
 /** @defgroup HAL_Exported_Constants_Group1 SYSCFG VREFBUF Voltage Scale
   * @{
   */
@@ -158,7 +158,7 @@ typedef enum
 /**
   * @}
   */
-										   
+
 /** @defgroup HAL_Exported_Constants_Group5 SYSCFG IOCompenstionCell Config
   * @{
   */
@@ -217,7 +217,7 @@ typedef enum
   */
 
 /** @brief  Freeze/Unfreeze Peripherals in Debug mode
-  */ 
+  */
 #if defined (CORE_CM4)
 #if defined(DBGMCU_APB1_FZ_DBG_TIM2_STOP)
 #define __HAL_DBGMCU_FREEZE_TIM2()           SET_BIT(DBGMCU->APB1FZ2, DBGMCU_APB1_FZ_DBG_TIM2_STOP)
@@ -691,7 +691,7 @@ typedef enum
 /** @defgroup HAL_Exported_Functions HAL Exported Functions
   * @{
   */
-  
+
 /* Initialization and de-initialization functions  ******************************/
 /** @defgroup HAL_Exported_Functions_Group1 Initialization and de-initialization functions
   * @{
@@ -707,7 +707,7 @@ void HAL_DisableDBGWakeUp(void);
 /**
   * @}
   */
-  
+
 /* Peripheral Control functions  ************************************************/
 /** @defgroup HAL_Exported_Functions_Group2 Peripheral Control functions
   * @{
@@ -753,11 +753,11 @@ void HAL_SYSCFG_DisableVREFBUF(void);
 /**
  * @}
  */
- 
+
 /**
  * @}
  */
-  
+
 /**
  * @}
  */
